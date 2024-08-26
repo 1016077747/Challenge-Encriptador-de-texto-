@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="Styles\style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    
+    <div class="container-body">
+
+        <div class="container-a">
+            <img class="logo" src="img\logo.png">
+        </div>
+        <div class="container-b">
+            <textarea id="input-text" class="input-blue-text" placeholder="Ingrese el texto aqui"></textarea>
+
+            <div class="bottom-container">
+                <div class="container-tooltip">
+                    <span class="material-symbols-outlined">error</span>
+                    <p class="texto-juego"> Solo letras minúsculas y sin acentos </p>
+                </div>
+                
+                <div class="button-group">
+                    <button id="encrypt-button" class="boton-encriptar">Encriptar</button>
+                    <button id="decrypt-button" class="boton-desencriptar">Desencriptar</button>
+                </div>
+            </div>            
+        </div>
+        <div id="container-c" class="container-c">
+            <section class="contenido-columna">
+                <img id="img-empty" src="img\img_1.png" class="imagen-busqueda">
+                <p id="strong-empty" class="strong">Ningún mensaje fue encontrado</p>
+                <p id="p-empty">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <p id="displayed-text" class="content-text"></p>
+                <button id="copy-button" class="boton-copiar">Copiar</button>
+            </section>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+<footer class="footer">
+    Laura Alejandra Bohorquez Pachon
+</footer>
+</html>
